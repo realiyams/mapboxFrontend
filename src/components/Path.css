@@ -1,0 +1,145 @@
+@media only screen and (max-width: 767px) {
+  #path-container {
+    top: 120px;
+    max-width: 80vw;
+    right: -600px;
+  }
+
+  #open-instruction-btn {
+    top: 137px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  #path-container {
+    top: 150px;
+    right: -300px;
+  }
+
+  #open-instruction-btn {
+    top: 167px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  #path-container {
+    top: 150px;
+    right: -300px;
+  }
+
+  #open-instruction-btn {
+    top: 167px;
+  }
+}
+
+#path-container {
+  position: fixed;
+  
+  margin: 10px;
+  padding: 10px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 5px;
+  z-index: 1;
+  transition: 0.6s;
+}
+
+.type {
+  text-align: center;
+  margin: 0;
+  padding-right: 10px;
+}
+
+.duration {
+  text-align: center;
+  margin: 0;
+  padding-right: 10px;
+}
+
+.steps {
+  text-align: center;
+  margin: 0;
+}
+
+.distance {
+  text-align: center;
+  margin: 0;
+  padding-right: 10px;
+}
+
+#instructions {
+  padding: 10px;
+  margin-top: 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+  max-height: 40vh;
+  overflow-x: hidden;
+}
+
+.list {
+  padding-left: 20px;
+  margin-bottom: 0px;
+}
+
+#close-instruction-btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 30px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  z-index: 3;
+  border-radius: 50%;
+  padding: 3px 10px 3px 10px;
+  transition: 0.6s;
+  background-color: rgb(0, 0, 0, 0.5);
+}
+
+#close-instruction-btn:hover {
+  background-color: rgb(0, 0, 0, 0.8);
+}
+
+#open-instruction-btn {
+  position: fixed;
+  right: -300px;
+  border: none;
+  cursor: pointer;
+  z-index: 2;
+  border-radius: 50%;
+  padding: 4px 2px 4px 2px;
+  transition: 0.6s;
+  background-color: rgb(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  z-index: 1;
+}
+
+#open-instruction-btn:hover {
+  background-color: rgb(0, 0, 0, 0.8);
+}
+
+.hamburger {
+  display: inline-block;
+  cursor: pointer;
+  padding: 8px;
+}
+
+.hamburger span {
+  display: block;
+  height: 2px;
+  width: 20px;
+  margin-bottom: 5px;
+  position: relative;
+  background: rgb(255, 255, 255);
+  border-radius: 2px;
+}
+
+.hamburger span:nth-child(2) {
+  width: 20px;
+}
+
+.hamburger span:last-child {
+  margin-bottom: 0;
+}

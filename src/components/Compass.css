@@ -1,0 +1,38 @@
+@media only screen and (max-width: 767px) {
+  #custom-compass {
+    bottom: 30px;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  #custom-compass {
+    top: 20px;
+    left: 20px;
+    width: 75px;
+    height: 75px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  #custom-compass {
+    top: 20px;
+    left: 20px;
+    width: 75px;
+    height: 75px;
+  }
+}
+
+#custom-compass {
+  position: absolute;
+  background-image: url('/—Pngtree—compass needle_5409072.png');
+  background-size: cover;
+  background-position: center center;
+  background-color: #111;
+  border: 2px solid #888;
+  border-radius: 50%;
+  z-index: 1;
+  cursor: pointer;
+}
