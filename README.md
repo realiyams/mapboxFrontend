@@ -61,4 +61,4 @@ Setelah mendapatkan data dari backend, kamu dapat menggunakan data tersebut untu
 
 | ![1685109809034](https://file+.vscode-resource.vscode-cdn.net/e%3A/Projects/SkripsiHabil/frontend/image/README/1685109809034.png) | ![1685109782183](https://file+.vscode-resource.vscode-cdn.net/e%3A/Projects/SkripsiHabil/frontend/image/README/1685109782183.png) |
 | ------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| ![1685109762485](https://file+.vscode-resource.vscode-cdn.net/e%3A/Projects/SkripsiHabil/frontend/image/README/1685109762485.png) | ![1685109839093](https://file+.vscode-resource.vscode-cdn.net/e%3A/Projects/SkripsiHabil/frontend/image/README/1685109839093.png) |
+| ![1685109762485](https://raw.githubusercontent.com/realiyams/mapboxFrontend/main/image/README/1685109762485.png) | ![1685109839093](https://file+.vscode-resource.vscode-cdn.net/e%3A/Projects/SkripsiHabil/frontend/image/README/1685109839093.png) |
