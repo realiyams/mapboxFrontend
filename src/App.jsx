@@ -74,7 +74,7 @@ function App() {
       let source
 
       try {
-        map.current.addSource('Universitas Pendidikan Indonesia', {
+        source = map.current.addSource('Universitas Pendidikan Indonesia', {
           'type': 'geojson',
           'data': {
             'type': 'Feature',
@@ -149,7 +149,7 @@ function App() {
   }, [dataIsFetched])
 
   async function fetchImage(name) {
-    const response = await axios.get(`${import.meta.env.VITE_BACKEND}/api/${name}/images`)
+    const response = await axios.get(`${import.meta.env.VITE_BACKEND}/api/${name.toUpperCase()}/images`)
     setImagesBuilding(response.data)
   }
 
