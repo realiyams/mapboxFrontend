@@ -17,9 +17,17 @@
     display: none;
   }
 
+  #startLocation {
+    padding: 10px 0px 10px 0px;
+  }
+  
+  #endLocation {
+    padding: 10px 0px 10px 0px;
+  }
+
   button {
     margin-top: 5px;
-    padding: 3px 10px 3px 10px;
+    padding: 8px 10px 8px 10px;
   }
 
   .building-list {
@@ -33,7 +41,7 @@
     right: 10px;
   }
 
-  button {
+  #td-button {
     padding: 5px 15px 5px 15px;
   }
 
@@ -71,7 +79,11 @@
   z-index: 1;
 }
 
-select {
+#startLocation {
+  width: 100%;
+}
+
+#endLocation {
   width: 100%;
 }
 
