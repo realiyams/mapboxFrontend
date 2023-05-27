@@ -1,12 +1,12 @@
 @media only screen and (max-width: 767px) {
   #path-container {
-    top: 120px;
+    top: 170px;
     max-width: 80vw;
     right: -600px;
   }
 
   #open-instruction-btn {
-    top: 137px;
+    top: 187px;
   }
 }
 

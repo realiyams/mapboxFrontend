@@ -87,7 +87,7 @@ function OptionBox({Data, onGetLineString}) {
             <tr>
               <td colSpan='3' id='td-button'>
                 <br />
-                <button onClick={handlePath}>Cari Rute</button>
+                <button onClick={handlePath} id='route-button'>Cari Rute</button>
               </td>
             </tr>
           </tbody>
